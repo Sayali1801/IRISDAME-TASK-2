@@ -1,0 +1,109 @@
+.headerMain
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    height: 60px;
+    font-family: Courier New;
+    font-size: 23px;
+}
+
+.CenterMain
+{
+    background-color: rgb(4, 161, 135);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.CenterMain h4
+{
+    font-size: 22px;
+    padding-left: 35%;
+    color: white;
+    padding-bottom: 10px;
+}
+.mainImg
+{
+    border-radius:50% ;
+    height: 300px;
+}
+.searchInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(52, 52, 53);
+    color: white;
+
+}
+.searchInfo h4
+{
+    font-size: 25px;
+}
+.searchInfo p{
+    font-size: 18px;
+}
+.searchInfo button{
+    background-color: white;
+    color: black;
+    border: none;
+    width: 80px;
+    height: 35px;
+    margin-bottom: 50px;
+    }
+.searchLogo{
+    height: 12px;
+}
+.moreBirds
+{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.moreBirdsTitle
+{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+margin: 15px;
+}
+.imgInfo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    
+    font-size: 20px;
+}
+.imgInfo h5
+{
+padding-left: 60px;
+}
+
+.imgCards
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+}
+.footer
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(52, 52, 53);
+    color: white;
+font-size: 20px;
+height: 100px;
+}
+.footer a{
+    text-decoration: none;
+    
+}
